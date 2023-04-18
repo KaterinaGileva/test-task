@@ -1,0 +1,39 @@
+.cards {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-bottom: 80px;
+  background-color: aquamarine;
+}
+
+.load_more {
+  position: absolute;
+  bottom: 20px;
+  padding: 0;
+  width: 170px;
+  height: 40px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1, 33;
+  background-color: orchid;
+
+  border: none;
+  border-radius: 5px;
+  color: #EBD8FF;
+  cursor: pointer;
+}
+
+.load_more:hover {
+  background-color: #333;
+  color: #fff;
+}
